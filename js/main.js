@@ -36,6 +36,6 @@ for (let i = 1; i <= 100; i++) {
         cell.classList.add("bg-blue");
     }
 
-
+    //Collegare la const "box" e "cell" tramite "append" così che che la const "cell" che è un elemento virtuale venga implementato nell'HTML
     box.append(cell);
 }
