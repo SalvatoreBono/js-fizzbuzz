@@ -1,9 +1,17 @@
+//Creare una const e collegarlo tramite ID html
 const box = document.getElementById("container-dom");
 
 for (let i = 1; i <= 100; i++) {
+
+    //Creare una const che crea un elemento virtuale
     const cell = document.createElement("div");
+
+    //utilizzare innerHTML per "i" così che gli "i" appaiano nell'HTML
     cell.innerHTML = i.toString();
+
+    //Utilizzare "classList" e aggiungere la classe così da poter customizzare le cell
     cell.classList.add("cell-custom")
+
     //"Se"  i % 3  e "Se" i % 5 stampa FizzBuzz
     if (i % 3 === 0) {
         if (i % 5 === 0) {
@@ -22,7 +30,7 @@ for (let i = 1; i <= 100; i++) {
         console.log("Buzz");
         cell.innerHTML = "Buzz";
 
-        //"Altrimenti" stampa tutti gli "i"
+        //"Altrimenti" stampa tutti gli "i" rimanenti
     } else {
         console.log(i);
         cell.classList.add("bg-blue");
