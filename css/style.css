@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(8, 59, 76);
+}
+
+.cell-custom {
+    width: calc(100% / 6);
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-blue {
+    background-color: rgb(19, 137, 178);
+}
+
+.bg-green {
+    background-color: rgb(12, 214, 161);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 209, 102);
+}
+
+.bg-red {
+    background-color: rgb(240, 70, 111);
+}
